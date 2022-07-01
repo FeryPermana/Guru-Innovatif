@@ -23,7 +23,7 @@ class ProjectSeeder extends Seeder
             'start' => date("2022-01-14"),
             'end' => date("2022-08-14"),
             'progress' => "30",
-            'image' => "uploads/profile.jpg",
+            'image' => "upload/profile.jpg",
         ]);
 
         DB::table('projects')->insert([
@@ -34,7 +34,7 @@ class ProjectSeeder extends Seeder
             'start' => date("2022-01-30"),
             'end' => date("2022-03-10"),
             'progress' => "80",
-            'image' => "uploads/profile.jpg",
+            'image' => "upload/profile.jpg",
         ]);
 
         DB::table('projects')->insert([
@@ -45,7 +45,7 @@ class ProjectSeeder extends Seeder
             'start' => date("2022-02-02"),
             'end' => date("2022-05-30"),
             'progress' => "40",
-            'image' => "uploads/profile.jpg",
+            'image' => "upload/profile.jpg",
         ]);
 
         DB::table('projects')->insert([
@@ -56,7 +56,7 @@ class ProjectSeeder extends Seeder
             'start' => date("2021-09-02"),
             'end' => date("2022-01-15"),
             'progress' => "100",
-            'image' => "uploads/profile.jpg",
+            'image' => "upload/profile.jpg",
         ]);
     }
 }
