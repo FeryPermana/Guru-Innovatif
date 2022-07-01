@@ -4,6 +4,9 @@
         git clone https://github.com/FeryPermana/Guru-Innovatif.git
     </li>
      <li>
+        cd Guru-Innovatif
+    </li>
+     <li>
         composer install
     </li>
      <li>
