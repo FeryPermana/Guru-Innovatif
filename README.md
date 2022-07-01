@@ -10,7 +10,7 @@
         composer install
     </li>
      <li>
-       buat database baru di phpmyadmin kemudian php artisan migrate
+       buat database baru di phpmyadmin kemudian edit database di env kemudian php artisan migrate
     </li>
      <li>
         php artisan db:seed untuk mengisi data dummy
